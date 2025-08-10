@@ -5,44 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Organization Name</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="mission.html">Mission & Values</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="donate.html">Donate</a></li>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="mission.html"><i class="fas fa-bullseye"></i> Mission & Values</a></li>
+            <li><a href="events.html"><i class="fas fa-calendar-alt"></i> Events</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li><a href="donate.html" class="button"><i class="fas fa-heart"></i> Donate</a></li>
         </ul>
     </nav>
 
     <header>
         <div class="container">
-            <h1>Welcome to Our Organization</h1>
+            <div class="header-content">
+                <h1>Welcome to Our Organization</h1>
+                <p>Together, we can make a difference in our community</p>
+                <a href="volunteer.html" class="button">
+                    <i class="fas fa-hands-helping"></i> Get Involved
+                </a>
+            </div>
         </div>
     </header>
 
     <main class="container">
         <section>
             <h2>Making a Difference</h2>
-            <p>Welcome to our organization. We are dedicated to making positive change in our community.</p>
+            <div class="feature-grid">
+                <div class="card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Our Mission</h3>
+                    <p>We are dedicated to making positive change in our community through sustainable initiatives and volunteer work.</p>
+                    <a href="mission.html" class="button">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h3>Join Our Community</h3>
+                    <p>Become part of our growing community of volunteers and supporters making a real difference.</p>
+                    <a href="volunteer.html" class="button">Join Us <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Get Involved</h3>
+                    <p>Discover various ways to contribute to our cause and help create positive change.</p>
+                    <a href="about.html" class="button">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>Latest Events</h2>
-            <div class="card">
-                <h3>Upcoming Event</h3>
-                <p>Check out our events page for the latest activities and how you can participate.</p>
-                <a href="events.html" class="button">View Events</a>
+            <h2>Our Impact</h2>
+            <div class="stat-grid">
+                <div class="stat-item">
+                    <i class="fas fa-user-friends"></i>
+                    <div class="number">1,000+</div>
+                    <div class="label">Volunteers</div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <div class="number">50+</div>
+                    <div class="label">Active Projects</div>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <div class="number">10,000+</div>
+                    <div class="label">Lives Impacted</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Upcoming Events</h2>
+            <div class="feature-grid">
+                <div class="card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Community Cleanup Day</h3>
+                    <p>Join us this weekend for our monthly community cleanup initiative.</p>
+                    <p><i class="fas fa-clock"></i> Aug 15, 2025 | 9:00 AM</p>
+                    <a href="events.html" class="button">Register Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Volunteer Workshop</h3>
+                    <p>Learn essential skills and meet other volunteers in our training workshop.</p>
+                    <p><i class="fas fa-clock"></i> Aug 20, 2025 | 2:00 PM</p>
+                    <a href="events.html" class="button">Register Now <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Organization Name. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p>&copy; 2025 Organization Name. All rights reserved.</p>
+            </div>
         </div>
     </footer>
     <script src="scripts/main.js"></script>

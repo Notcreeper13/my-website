@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer With Us | Organization Name</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="mission.html">Mission & Values</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Volunteer Opportunities</h1>
+            <p>Make a difference in your community</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="volunteer-intro">
+            <h2>Why Volunteer With Us?</h2>
+            <p>Join our dedicated team of volunteers and help make a positive impact in our community. We offer various opportunities to match your skills and interests.</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>🤝 Community Impact</h3>
+                    <p>Make a real difference in people's lives</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>📚 Learn New Skills</h3>
+                    <p>Gain valuable experience and training</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>👥 Meet New People</h3>
+                    <p>Connect with like-minded individuals</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>📄 Professional Growth</h3>
+                    <p>Add valuable experience to your resume</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="current-opportunities">
+            <h2>Current Opportunities</h2>
+            
+            <div class="opportunity-grid">
+                <div class="opportunity-card">
+                    <div class="card-header urgent">
+                        <span class="badge">Urgent Need</span>
+                    </div>
+                    <h3>Community Event Coordinator</h3>
+                    <p class="commitment">Commitment: 5-10 hours/week</p>
+                    <p>Help organize and manage community events. Perfect for those with event planning experience.</p>
+                    <ul class="requirements">
+                        <li>Event planning experience preferred</li>
+                        <li>Available weekends</li>
+                        <li>Good communication skills</li>
+                    </ul>
+                    <button class="button apply-btn">Apply Now</button>
+                </div>
+
+                <div class="opportunity-card">
+                    <div class="card-header">
+                        <span class="badge">Regular</span>
+                    </div>
+                    <h3>Youth Mentor</h3>
+                    <p class="commitment">Commitment: 3-5 hours/week</p>
+                    <p>Guide and support young people in our youth programs. Background check required.</p>
+                    <ul class="requirements">
+                        <li>Experience with youth preferred</li>
+                        <li>Background check required</li>
+                        <li>Minimum 6-month commitment</li>
+                    </ul>
+                    <button class="button apply-btn">Apply Now</button>
+                </div>
+
+                <div class="opportunity-card">
+                    <div class="card-header">
+                        <span class="badge">Flexible</span>
+                    </div>
+                    <h3>Social Media Ambassador</h3>
+                    <p class="commitment">Commitment: 2-4 hours/week</p>
+                    <p>Help manage our social media presence and spread awareness about our cause.</p>
+                    <ul class="requirements">
+                        <li>Social media experience</li>
+                        <li>Creative mindset</li>
+                        <li>Remote work possible</li>
+                    </ul>
+                    <button class="button apply-btn">Apply Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="volunteer-form">
+            <h2>Volunteer Application Form</h2>
+            <form id="volunteer-application">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="full-name">Full Name *</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="availability">Availability *</label>
+                        <select id="availability" name="availability" required>
+                            <option value="">Select availability</option>
+                            <option value="weekdays">Weekdays</option>
+                            <option value="weekends">Weekends</option>
+                            <option value="both">Both</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="interests">Areas of Interest</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="interests" value="events"> Event Planning</label>
+                            <label><input type="checkbox" name="interests" value="mentoring"> Youth Mentoring</label>
+                            <label><input type="checkbox" name="interests" value="social"> Social Media</label>
+                            <label><input type="checkbox" name="interests" value="admin"> Administrative</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="experience">Previous Volunteer Experience</label>
+                        <textarea id="experience" name="experience" rows="4"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="motivation">Why do you want to volunteer with us? *</label>
+                        <textarea id="motivation" name="motivation" rows="4" required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-footer">
+                    <p class="required-note">* Required fields</p>
+                    <button type="submit" class="button submit-btn">Submit Application</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What is the minimum age to volunteer?</h3>
+                    <p>The minimum age varies by program. Most opportunities require volunteers to be at least 16 years old.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do I need previous experience?</h3>
+                    <p>While some roles require specific experience, many don't. We provide training for most positions.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long do I need to commit?</h3>
+                    <p>Commitment periods vary by role. Some opportunities are one-time events, while others require longer commitments.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I volunteer as part of a group?</h3>
+                    <p>Yes! We welcome both individual and group volunteers. Contact us for group opportunities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Organization Name. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
