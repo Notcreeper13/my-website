@@ -1,13 +1,53 @@
+/* Global Styles */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fff;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Header */
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 0;
+    background-color: #35424a;
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
     text-align: center;
 }
 
